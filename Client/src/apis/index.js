@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://ai-image-generator-2-by4w.onrender.com/",
+  baseURL: "https://image-generator-backend-roan.vercel.app/api/",
 });
 
 export const GetPosts = async () => await API.get("post/");
