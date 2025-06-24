@@ -5,7 +5,7 @@ import Synexa from "synexa";
 dotenv.config();
 
 const synexa = new Synexa.default({
-  auth: A8IRBww2N79MlOPFdN9nOrlnkPb2icOkoBHb26hF,
+  auth: "A8IRBww2N79MlOPFdN9nOrlnkPb2icOkoBHb26hF",
 });
 
 export const generateImage = async (req, res, next) => {
