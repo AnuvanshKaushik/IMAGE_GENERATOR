@@ -7,9 +7,10 @@ dotenv.config();
 
 cloudinary.config({
   cloud_name: "dtlfbxkcg",
-  api_key: 624931853541629,
+  api_key: "624931853541629",
   api_secret: "F12sYa6XS_BiIXgMTCuNk7vaDUw",
 });
+
 
 
 // Get all posts
